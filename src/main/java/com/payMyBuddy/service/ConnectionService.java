@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Transactional
-public class Connection {
+public class ConnectionService {
     @Autowired
     private ConnectionRepository connectionRepository;
 }

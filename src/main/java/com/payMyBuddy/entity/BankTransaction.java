@@ -1,7 +1,7 @@
-package com.payMyBuddy.model;
+package com.payMyBuddy.entity;
 
-import com.payMyBuddy.model.enumeration.OperationEnum;
-import com.payMyBuddy.model.id.BankTransactionId;
+import com.payMyBuddy.entity.enumeration.OperationEnum;
+import com.payMyBuddy.entity.id.BankTransactionId;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.payMyBuddy.model.enumeration;
+package com.payMyBuddy.entity.enumeration;
 
 public enum OperationEnum {
     CASH_IN,

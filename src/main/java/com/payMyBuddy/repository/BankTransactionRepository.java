@@ -1,7 +1,7 @@
 package com.payMyBuddy.repository;
 
-import com.payMyBuddy.model.BankTransaction;
-import com.payMyBuddy.model.id.BankTransactionId;
+import com.payMyBuddy.entity.BankTransaction;
+import com.payMyBuddy.entity.id.BankTransactionId;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

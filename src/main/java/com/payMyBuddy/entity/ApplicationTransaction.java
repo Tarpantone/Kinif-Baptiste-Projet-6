@@ -1,6 +1,6 @@
-package com.payMyBuddy.model;
+package com.payMyBuddy.entity;
 
-import com.payMyBuddy.model.id.ApplicationTransactionId;
+import com.payMyBuddy.entity.id.ApplicationTransactionId;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

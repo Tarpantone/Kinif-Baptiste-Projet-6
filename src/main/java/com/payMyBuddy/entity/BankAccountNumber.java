@@ -1,4 +1,4 @@
-package com.payMyBuddy.model;
+package com.payMyBuddy.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -9,18 +9,12 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name = "login")
+@Table(name = "bank_account_number")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Login {
+public class BankAccountNumber {
     @Id
-    @Column(name = "person_id")
-    private int personId;
-
-    @Column(name = "email")
-    private String email;
-
-    @Column(name = "password")
-    private String password;
+    @Column(name = "account_nb")
+    private String accountNB;
 }

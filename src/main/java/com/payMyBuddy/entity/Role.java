@@ -1,6 +1,6 @@
-package com.payMyBuddy.model;
+package com.payMyBuddy.entity;
 
-import com.payMyBuddy.model.enumeration.RoleEnum;
+import com.payMyBuddy.entity.enumeration.RoleEnum;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

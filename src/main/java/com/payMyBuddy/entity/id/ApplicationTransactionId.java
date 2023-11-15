@@ -1,4 +1,4 @@
-package com.payMyBuddy.model.id;
+package com.payMyBuddy.entity.id;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
@@ -8,7 +8,6 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
-import java.util.Objects;
 
 @Embeddable
 @Data

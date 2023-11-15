@@ -1,4 +1,4 @@
-package com.payMyBuddy.model.id;
+package com.payMyBuddy.entity.id;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;

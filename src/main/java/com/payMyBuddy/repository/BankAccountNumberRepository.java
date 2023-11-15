@@ -1,6 +1,6 @@
 package com.payMyBuddy.repository;
 
-import com.payMyBuddy.model.BankAccountNumber;
+import com.payMyBuddy.entity.BankAccountNumber;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
